@@ -1,10 +1,9 @@
 {
-  "name": "next-auth",
+  "name": "@GitStartHQ/next-auth",
   "version": "0.0.0-semantically-released",
   "description": "Authentication for Next.js",
   "homepage": "https://next-auth.js.org",
-  "repository": "https://github.com/nextauthjs/next-auth.git",
-  "author": "Iain Collins <me@iaincollins.com>",
+  "repository": "https://github.com/GitStartHQ/next-auth.git",
   "main": "index.js",
   "types": "./index.d.ts",
   "keywords": [
@@ -177,5 +176,6 @@
       "type": "github",
       "url": "https://github.com/sponsors/balazsorban44"
     }
-  ]
+  ],
+  "publishConfig":{"registry":"https://npm.pkg.github.com"}
 }
